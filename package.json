@@ -1,0 +1,12 @@
+{
+  "name": "AngularD3d3Chart",
+  "version": "0.0.1",
+  "description": "Angular D3 Bar chart example",
+  "main": "index.html",
+  "author": "Parth Ladani",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "latest",
+    "d3": "latest"
+  }
+}

@@ -1,0 +1,96 @@
+
+/* Global CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px sans-serif;
+}
+
+/* Chart CSS */
+
+div.chart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #4d4d4d;
+}
+
+.chart .domain {
+  fill: none;
+  stroke-width: 1;
+  stroke: #D4D4D1;
+}
+  
+.chart .bar {
+  fill: #ccc;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+.axis path{
+  fill: none;
+  stroke: none;
+}
+.bar {
+  fill: steelblue;
+}
+
+text{
+  font-size: 10px;
+}
+
+/* Form CSS */
+
+.chart-form{
+  width: 400px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.hover-data{
+  font-size: 30px;
+  background: #4d4d4d;
+  color: whitesmoke;
+  padding: 0 10px;
+}
+
+.chart-form input{
+  font-size: 18px;
+  height: 20px;
+  padding: 5px;
+  outline: none;
+}
+
+.chart-form input.ng-invalid-max{
+  border: 1px solid tomato;
+}
+
+.chart-form input + .invalid-text{
+  display: none;
+}
+
+.chart-form input.ng-invalid-max + .invalid-text{
+  display: block;
+  color: tomato;
+}
+
+.chart-form button{
+  background: white;
+  border: 2px solid LightSlateGray;
+  color: LightSlateGray;
+  font-weight: bold;
+  height: 35px;
+  width: 275px;
+}
+
+.chart-form button:hover{
+  background: LightSlateGray;
+  border: none;
+  color: white;
+}
