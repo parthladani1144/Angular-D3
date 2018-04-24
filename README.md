@@ -1,6 +1,6 @@
 # Angular-D3 Histogram
 
-- Shows the onHover/Mouseover data in the footer from the graph being dispalyed
+- Shows the onHover/Mouseover data in the footer from the graph being displayed
 - Update the value of histogram in the footer and redraw the graph
 ## To install and run
 
