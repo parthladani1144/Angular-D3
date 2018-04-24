@@ -1,8 +1,11 @@
-# Angular-D3 Histogram chart
+# Angular-D3 Histogram
 
-- Review data in chart footer
-- Update chart data as input
+- Shows the onHover/Mouseover data in the footer from the graph being dispalyed
+- Update the value of histogram in the footer and redraw the graph
+## To install and run
 
-- [Help Resource-1](http://bl.ocks.org/biovisualize/5372077) 
-- [Help Resource-2](https://embed.plnkr.co/plunk/raD0j1) 
+1. [Install dependencies using Yarn](https://yarnpkg.com/en/docs/install#mac-stable)
+2. Download code files from above
+3. Run "install yarn" in terminal inside the folder. This will download and install all the dependencies associated to run the code.
+4. Enjoy :)
 
