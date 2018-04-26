@@ -1,4 +1,3 @@
-
 /* Global CSS */
 
 *{
@@ -25,7 +24,7 @@ div.chart{
 }
   
 .chart .bar {
-  fill: #ccc;
+  fill: #778899;
 }
 
 .axis path, .axis line {

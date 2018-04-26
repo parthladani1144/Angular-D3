@@ -9,15 +9,14 @@
   </head>
 
   <body>
-
     <div ng-app="d3Chart">
       <div ng-controller="d3Ctrl">
-          <d3-chart height="400" data="data" hovered="hovered(args)"></d3-chart>
+          <d3-chart height="400" data="data" hovered="hovered(data)"></d3-chart>
           <d3-chart-footer></d3-chart-footer>
       </div>
     </div>
 
-    <script type="text/javascript" src="app/js/charts/histogram.js"></script>
+    <script type="text/javascript" src="app/js/reusable_chart.js"></script>
     <script type="text/javascript" src="app/js/app.js"></script>
     <script type="text/javascript" src="app/js/controllers/d3Chartcontroller.js"></script>
     <script type="text/javascript" src="app/js/directives/d3ChartDirective.js"></script>

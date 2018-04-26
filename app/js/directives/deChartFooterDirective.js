@@ -14,11 +14,12 @@
                     };
 
                     function updateData(){
-                        return d3.range(~~(Math.random()*2)+1).map(function(d, i){});
+                        return d3.range(~~(Math.random()*1)+2).map(function(d, i){});
                     }
                 },
                 template: '<div class="chart-form">' +
-                        '<br /><p>Hovered bar data: <span class="hover-data">{{barValue}}</span></p>' +
+                        '<br /><p>Hovered X data: <span class="hover-data">{{barXValue}}</span></p>' +
+                        '<br /><p>Hovered Y data: <span class="hover-data">{{barYValue}}</span></p>' +
                         '<br /><p>X Value: <input type="number" ng-maxlength="5" max="99999" ng-model="xvalue"><span class="invalid-text">Please enter bumber below 5 digit</span></p>' +
                         '<br /><p>Y Value: <input type="number" ng-maxlength="5" max="99999" ng-model="yvalue"><span class="invalid-text">Please enter bumber below 5 digit</span></p>' + 
                         '<br /><button ng-click="update()">Update Data</button></div>'

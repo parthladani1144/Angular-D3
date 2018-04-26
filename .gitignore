@@ -239,15 +239,6 @@ package-lock.json
 # next.js build output
 .next
 
-
-###################################
-##  DocuSign Package Management  ##
-###################################
-
-# certificate required by .yarnrc
-docusignhq.com.crt
-
-
 #######################
 ##  Build artifacts  ##
 #######################
